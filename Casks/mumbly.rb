@@ -26,8 +26,6 @@ cask "mumbly" do
                    must_succeed: false
   end
 
-  uninstall quit: "dev.localdictation.app"
-
   zap trash: [
     "~/Library/Application Support/LocalDictation",
     "~/Library/Application Support/FluidAudio",
