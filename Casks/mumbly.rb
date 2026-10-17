@@ -1,6 +1,6 @@
 cask "mumbly" do
-  version "1.0.0"
-  sha256 "cefc261b01cefec34e73c857315b08fa6888d56afe31731a416d57228c1a713a"
+  version "1.1.0"
+  sha256 "5879d087ed7fca770bcc640a56957a28edac7b659c02705ee76158a1c6267f6c"
 
   url "https://github.com/lvecchi500-art/mumbly/releases/download/v#{version}/mumbly-#{version}.zip"
   name "mumbly"
