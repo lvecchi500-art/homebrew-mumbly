@@ -1,10 +1,10 @@
 cask "mumbly" do
-  version "1.1.9"
-  sha256 "a57fef1bf1756cd55d748b639cb1ef4fa1751267c3415e579eee8a7cadc78736"
+  version "0.1"
+  sha256 "b7d77c44e09e1be53f394bc2db457dd1429b7681a0f254f3be79e6934461ed49"
 
   url "https://github.com/lvecchi500-art/mumbly/releases/download/v#{version}/mumbly-#{version}.zip"
   name "mumbly"
-  desc "Talk and it types what you meant; ask buddy about anything on your screen"
+  desc "The screen is your whiteboard: talk, and it types, teaches or gets it done"
   homepage "https://heymumbly.com"
 
   depends_on macos: ">= :tahoe"
